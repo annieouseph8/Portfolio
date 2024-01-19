@@ -1,0 +1,226 @@
+nav{ background-repeat: no-repeat; padding-top:10px; padding-bottom: 10px;  padding-left: 670px; position: sticky;  } 
+.c1{text-align: right; padding-right: 60px;
+    background-color: rgb(96, 95, 95,0.5);
+    box-shadow: 0 14px 28px rgba(251, 251, 251, 0.25),0 10px 10px rgba(89, 185, 211, 0.25);
+    padding-top: 0px;
+    /* position: fixed; */
+    
+}
+#l1{
+color: white;}
+a{color: white; text-decoration: none; font-size: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); display: inline-block; margin: 6px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url("images/pexels-moose-photos-1037995.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+a:hover{
+    color:black;
+}
+#i2{
+    color: rgb(96, 95, 95);
+    font-size: 50px;
+    padding-left: 30px; 
+    
+}
+#i1{color: rgb(96, 95, 95);
+font-size: 20px;
+padding-left: 30px;
+}
+#img1{
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
+    
+}
+#img1 img{
+    border: 5px solid rgb(194, 194, 194);
+    border-radius: 200px;
+    animation: fade-in 1s ease-in-out forwards;
+    animation-delay: 0.9s; /* Delay the animation further */
+    opacity: 0;
+    
+}
+@keyframes fade-in {
+    from {
+      opacity: 0; /* Fade in from fully transparent */
+      transform: translateY(20px); /* Start slightly below its final position */
+    }
+    to {
+      opacity: 1; /* Fade in to fully opaque */
+      transform: translateY(0); /* Move to its final position */
+    }
+  }
+
+#i4{
+
+ color: rgb(96, 95, 95);
+ padding-left: 30px;
+font-size: 20px;}
+/* img{ width: 400px; height: 500px; float: right; border: 2px solid #0f0f0f;  */
+    /* padding: 0px; border-width:10px;} */
+
+    #i4 h1,
+    #i4 p,#i4 ul,#i1 p ,#i2,#i4 h2{
+      opacity: 0; /* Start with zero opacity */
+    }
+    
+    @keyframes fade-in {
+      from {
+        opacity: 0; /* Fade in from fully transparent */
+        transform: translateY(20px); /* Start slightly below its final position */
+      }
+      to {
+        opacity: 1; /* Fade in to fully opaque */
+        transform: translateY(0); /* Move to its final position */
+      }
+    }
+    
+    #i4 h1 {
+      animation: fade-in 1s ease-in-out forwards; /* Apply the animation */
+      animation-delay: 0.2s; /* Delay the animation */
+    }
+    
+    #i4 p {
+      animation: fade-in 1s ease-in-out forwards;
+      animation-delay: 0.4s; /* Delay the animation further */
+    }
+    #i4 h2 {
+        animation: fade-in 1s ease-in-out forwards; /* Apply the animation */
+        animation-delay: 0.6s; /* Delay the animation */
+      }
+      
+    #i4 ul {
+        animation: fade-in 1s ease-in-out forwards;
+        animation-delay: 0.8s; /* Delay the animation further */
+      }
+      #i1 p {
+        animation: fade-in 1s ease-in-out forwards;
+        animation-delay: 0.6s; /* Delay the animation further */
+      }
+      #i2{
+        animation: fade-in 1s ease-in-out forwards;
+        animation-delay: 0.2s; /* Delay the animation further */
+      }
+    
+
+#i5{
+
+        color: rgb(96, 95, 95);
+        padding-left: 30px;
+       font-size: 20px;}
+#i6{color: rgb(96, 95, 95);
+        font-size: 20px;
+        padding-left: 30px;
+        }
+#i6 img{
+    width: 30px;
+    height: 30px;
+}     
+#i6{
+    width: 500px;
+    /* margin: 60px auto; */
+    color: rgb(96, 95, 95);
+    padding:50px;
+    box-shadow: 0 14px 28px rgba(0, 0,0,0.25),0 10px 10px rgba(0, 0,0,0.22);
+    background-color: aliceblue;
+    display: inline-block;
+    margin-right: 125px;
+    margin-left: 330px;
+    margin-top: 25px;
+    
+}
+#i6 a{color: rgb(96, 95, 95); text-decoration:underline; font-size: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);}
+#i6 h3{color: rgb(96, 95, 95); text-decoration: none; font-size: 26px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);}
+#i7{
+    width: 350px;
+    height: 200px;
+    margin: 60px auto; 
+    color: rgb(96, 95, 95);
+    
+    box-shadow: 0 14px 28px rgba(0, 0,0,0.25),0 10px 10px rgba(0, 0,0,0.22);
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding-top: 100px;
+    animation: fade-in 1s ease-in-out forwards;
+    animation-delay: 0.2s; /* Delay the animation further */
+}
+#i7{
+    opacity: 0; /* Start with zero opacity */
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0; /* Fade in from fully transparent */
+      transform: translateY(20px); /* Start slightly below its final position */
+    }
+    to {
+      opacity: 1; /* Fade in to fully opaque */
+      transform: translateY(0); /* Move to its final position */
+    }
+  }
+#i7:hover{
+    box-shadow: 0 14px 28px rgba(251, 251, 251, 0.25),0 10px 10px rgba(89, 185, 211, 0.25);
+    background-color: white;
+}
+#i7 h2{
+    font-size: 30px;
+    text-align: center;
+}
+#i10{
+    /* padding-right: 50px; */
+    padding-left: 20px;
+    padding-right: 50px;
+}
+#j1{
+    width: 900px;
+    height: 500px;
+    margin: 60px auto; 
+    color: rgb(96, 95, 95);
+    box-shadow: 0 14px 28px rgba(0, 0,0,0.25),0 10px 10px rgba(0, 0,0,0.22);
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 35px;
+    margin-left: 30px;
+    margin-top: 200px;
+    padding-top: 0px;
+    padding-left: 20px;
+    
+
+}
+#j2{
+    width: 900px;
+    height: 400px;
+    margin: 60px auto; 
+    color: rgb(96, 95, 95);
+    box-shadow: 0 14px 28px rgba(0, 0,0,0.25),0 10px 10px rgba(0, 0,0,0.22);
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 35px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-top: 0px;
+    padding-left: 20px;
+
+}
+#j3{
+    width: 900px;
+    height: 400px;
+    margin: 60px auto; 
+    color: rgb(96, 95, 95);
+    box-shadow: 0 14px 28px rgba(0, 0,0,0.25),0 10px 10px rgba(0, 0,0,0.22);
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 35px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-top: 0px;
+    padding-left: 20px;
+
+}
